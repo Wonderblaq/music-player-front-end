@@ -1,0 +1,192 @@
+body{
+    margin: 0;
+    padding: 0;
+    height:832px;
+    background-color: black;
+   
+
+}
+.container{ /* parent element for main and side-box */
+    display: flex;
+  
+    height: 100%; /* sets height to that of the main page */
+    position: absolute; 
+    top: 20px;
+    left: 60px;
+    
+}
+.main-box{
+   
+    width: 980px;
+    height: 732px;
+    background-color: #0A121E ;
+    filter: invert(100%);
+    filter: opacity(1.0); /* Adjust opacity level as needed */
+    filter: saturate(100%); /* Adjust saturation level as needed */
+    filter: hue-rotate(90deg);
+     /* Rotate hue by degrees */
+    filter: brightness(100%); 
+    /* Adjust brightness percentage as needed */
+
+    border-top-left-radius:  20px;
+    border-bottom-left-radius: 20px;
+    filter: drop-shadow(0,4,25%);
+    backdrop-filter: blur(10%);
+    background: linear-gradient(to right,#0A121E,#293F62,#081426);
+}
+.picture{ /* for styling picture in picture class inside 
+    main-box */ 
+    width: 201px;
+    height: 191px;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    border-radius: 60px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+}
+.library{
+    /* to style library picture inside main-box */
+    position: absolute;
+    width: 140px ;
+    height: 112px;
+    top: 290px;
+    left: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+}
+    
+
+
+
+.side-box{
+    filter: invert(100%);
+    filter: opacity(0.5); /* Adjust opacity level as needed */
+    filter: saturate(100%); /* Adjust saturation level as needed */
+    filter: hue-rotate(90deg);
+     /* Rotate hue by degrees */
+    filter: brightness(150%); 
+   
+    width: 250px;
+    height: 732px;
+    background-color: #123258 ;
+    border-top-right-radius:  20px;
+    border-bottom-right-radius: 20px;
+    filter: drop-shadow(25%);
+    
+}
+.header{
+    text-align: center; /* title of music player and its style
+      positions text at the center of theside-box */
+    font-size: 20px;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    filter: drop-shadow(25%);
+}
+.menu{
+    
+    font-size: 15px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+p{
+    filter: drop-shadow(25%);
+    color: #F8F8F8;
+    font-weight: bolder;
+   
+}
+a{
+    text-decoration: none;
+    color:#F8F8F8 ;
+}
+.menu-2{
+    width: 250px;
+    margin: 30px;
+    position: absolute;
+    left: 946px;
+}
+.menu-2-color{ /* styles text in side box to white color*/
+    color: white;
+    
+}
+.main-box-style{ font-family: "Mogra",cursive; /*styles texts in main box*/
+color: white;
+font-size: 37px;
+position: absolute;
+left: 250px; /*positions text some distance away from the main box*/
+top: 2px;
+font-weight: bolder;
+margin: 0;
+
+}
+.red{
+    color: red; /*styles the text in the paragraph to red color*/
+  
+}  
+
+.p-text{ /* To style text in main-box with p-text class*/
+    color: white;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+/*  styles for lib-text class from  library of main-box */
+.lib-text{
+    
+    position: absolute;
+    top: 25px;
+    left: 180px;
+    font-size: small;
+}
+.year{
+     /* styles for
+    year class inside library div */
+    color: red;
+    font-size: smaller;
+}
+.track{
+    position: relative;
+    color: red;
+    font-size: smaller;
+    font-style: italic;
+}
+.p{
+    font-family: 'Mogra',cursive;
+}
+.text{
+    position: relative;
+    color: white;
+    font-size: small;
+    
+}
+.icon{
+    font-size: 24px;
+    color: white;
+}
+.now-playing {
+    margin-top: 30px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.now-playing h2 {
+    margin-bottom: 10px;
+    color: white;
+}
+
+.song-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.song-info i {
+    margin-right: 10px;
+    color: #ffffff;
+}
+
+.time {
+    margin-left: 10px; /* Adjust spacing as needed */
+    display: inline-block; /* Ensure block-level behavior for margin to work */
+}

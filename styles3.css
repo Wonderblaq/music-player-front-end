@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    background: linear-gradient(to top,rgb(253, 255, 253),);
+    margin: 0;
+    padding: 0;
+
+}
+
+h3 { color: antiquewhite;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.playlist-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.playlist-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+}
+
+.playlist-item:last-child {
+    border-bottom: none;
+}
+
+.playlist-item i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.playlist-item em {
+    font-style: italic;
+}
+
